@@ -1,0 +1,192 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+#intro {
+    background: url("img/img1.jpeg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.landing {
+    font-size: 20px;
+}
+
+.cont {
+    display: inline-block;
+    cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+    width: 1.2em;
+    height: 0.10em;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+.change .bar1 {
+    -webkit-transform: translateY(7px) rotate(-45deg);
+    
+    transform: translateY(7px) rotate(-45deg);
+    
+}
+.change .bar2 {
+    opacity: 0;
+}
+.change .bar3 {
+    -webkit-transform: translateY(-5px) rotate(45deg);
+    
+    transform: translateY(-5px) rotate(45deg);
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.navbar .nav-item .nav-link {
+    color: rgb(49, 31, 49) !important;   
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: rgb(169, 92, 172) !important;   
+}
+
+.navbar-collapse {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    
+    letter-spacing: 0.4px;
+}
+.top-nav-collapse {
+    /* background-color: rgb(124, 67, 124); */
+    background-color: rgb(109, 29, 109);
+  }
+
+  .top-nav-collapse .navbar-collapse .nav-item .nav-link {
+    color: white !important;
+  }
+  .top-nav-collapse .navbar-collapse .nav-item .nav-link:hover {
+    color: rgb(169, 92, 172) !important;
+  }
+
+  .top-nav-collapse .navbar-collapse .btn-outline-success {
+    border-color: #2da24e !important;
+  }
+
+.navbar-brand {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.btn-out-purple {
+    border-color: rgb(169, 92, 172) !important;
+    background-color: rgb(169, 92, 172) !important;
+    color: white !important;
+    box-shadow: 0px 6px 16px rgba(48, 47, 47, 0.781);
+}
+.btn-outline-purple:hover {
+    border-color: rgb(157, 83, 161) !important;
+    background-color: rgb(157, 83, 161) !important;
+    color: white !important;
+    box-shadow: 0px 2px 16px rgba(48, 47, 47, 0.781);
+}
+hr {
+    border-top: 1px solid rgb(255, 108, 194);
+    width: 90%;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: transparent; 
+    }
+  }
+
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: transparent;
+    }
+  }
+
+@media (min-width: 600px) {
+.navbar.scrolling-navbar {
+    padding-top: 2px;
+    padding-bottom: 4px;
+    }
+    .navbar.scrolling-navbar.top-nav-collapse {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        padding-bottom: 20px;
+        }
+    }
+
+@media (max-width: 578px) {
+    .navbar .navbar-collapse {
+        /* background-color: #2da24e ; */
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 0px !important;
+    }
+}
+
+@media (max-width: 578px) {
+    .top-nav-collapse .navbar-collapse {
+        /* background-color: white ; */
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 578px) {
+    .top-nav-collapse .navbar-collapse {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 578px){
+    .navbar .nav-item .nav-link {
+        color: white !important;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 578px){
+    .navbar .nav-item .nav-link:hover {
+        color: #a2c433 !important;
+    }
+}
+
+@media (max-width: 992px){
+    .navbar .nav-item .nav-link {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .gal-content {
+        text-align: center;
+        margin-bottom: 40px !important;
+        }
+    }
+
+@media (max-width: 767px) {
+    .card {
+        margin-bottom: 40px !important;
+        }
+    }
